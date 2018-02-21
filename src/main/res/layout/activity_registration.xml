@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_position"
+        android:id="@+id/txv_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_job"
+        android:id="@+id/txv_station"
+        android:layout_below="@id/txv_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_scholar"
+        android:id="@+id/txv_scholarship"
+        android:layout_below="@id/txv_station"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_scholarship"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/txt_examine"
+        android:textColor="@color/colorBlack"
+        android:linksClickable="true"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/margin_true" />
+
+    <Button
+        android:layout_width="@dimen/width_sizes"
+        android:layout_height="@dimen/word_size"
+        android:layout_below="@id/textView"
+        android:text="Agregar"/>
+
+</RelativeLayout>

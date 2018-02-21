@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Personal</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_scholarship">Scholarship</string>
+    <string name="txt_station">Station</string>
+    <string name="txt_edit">editar</string>
+    <string name="txt_position">Nombre</string>
+    <string name="txt_job">Puesto</string>
+    <string name="txt_scholar">Escolaridad</string>
+    <string name="txt_examine">Examinar</string>
+</resources>
